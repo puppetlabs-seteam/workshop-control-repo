@@ -1,4 +1,4 @@
-class bolt_student1::packages {
+class bolt_student1::win_packages {
 
 Package {
     ensure   => installed,
