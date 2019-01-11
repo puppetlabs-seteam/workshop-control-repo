@@ -11,5 +11,6 @@ class bolt_student1::workshop1 {
     default: {
       fail('Unsupported operating system!')
 
-
+    }
+  }
 }
