@@ -5,7 +5,7 @@ Package {
     provider => chocolatey,
   }
 
-  package { 'notepadplusplus': }
+  package { 'git': }
   package { '7zip': }
 
 }
