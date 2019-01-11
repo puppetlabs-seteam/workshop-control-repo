@@ -1,6 +1,6 @@
 class bolt_student1::lin_packages {
 
-  $pkgs = ['unzip','wget']
+  $pkgs = ['unzip','git']
 
   ensure_packages($pkgs, {ensure => installed})
 
