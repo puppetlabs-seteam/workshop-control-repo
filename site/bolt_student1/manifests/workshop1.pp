@@ -1,5 +1,17 @@
-class role::workshop1 {
-  include ::profile::bolt_student1::puppet_agent
-  include ::profile::bolt_student1::packages
+class bolt_student1::workshop1 {
+  include ::bolt_student1::puppet_agent
+  
+  # Determine which package class to use based on kernal type
+   case $::kernel {
+    'windows': {
+      include ::bolt_student1::win_packages
+    }
+    'Linux':   {
+      include ::bolt_student1::lin_packages
+    }
+    default: {
+      fail('Unsupported operating system!')
 
+    }
+  }
 }
