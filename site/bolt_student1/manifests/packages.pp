@@ -1,4 +1,4 @@
-class profile::bolt_student1::packages {
+class bolt_student1::packages {
 
 Package {
     ensure   => installed,
