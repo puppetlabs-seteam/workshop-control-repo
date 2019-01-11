@@ -6,6 +6,7 @@ mod 'puppetlabs-puppet_agent',       '1.7.0'
 mod 'puppetlabs-apply_helpers',      '0.1.0'
 mod 'puppetlabs-python_task_helper', '0.2.0'
 mod 'puppetlabs-exec',               '0.3.0'
+mod 'puppetlabs-chocolatey',         '3.1.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
